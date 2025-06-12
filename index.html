@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nexora AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="mainContainer">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2>Chat History</h2>
+        <button id="toggleSidebar">❌</button>
+      </div>
+      <div id="historyList" class="history-list"></div>
+      <button id="clearChat">🗑️ Clear All</button>
+    </aside>
+
+    <!-- Chat Main -->
+    <main class="chat-main">
+      <button id="openSidebar" class="open-sidebar-btn">📂</button>
+
+      <div class="chat-container" id="chatContainer">
+        <div class="chat-box ai-chat-box">
+          <img src="ai.png" alt="" class="avatar left">
+          <div class="chat-bubble ai-chat-area">Hello! How can I help you today?</div>
+        </div>
+      </div>
+
+      <!-- Preview display -->
+      <div id="previewHolder" class="preview-holder">
+        <div id="fileName" class="file-name"></div>
+        <div class="preview-controls">
+          <button id="removeImage" class="hide">❌ Remove Image</button>
+          <button id="removeFile" class="hide">❌ Remove File</button>
+        </div>
+      </div>
+
+      <!-- Input -->
+      <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Message..." />
+
+        <!-- File & Image buttons -->
+        <button id="imageBtn"><img src="img.svg" alt=""></button>
+        <input type="file" id="imageInput" accept="image/*" hidden>
+
+        <button id="fileBtn"><img src="files.svg" alt=""></button>
+        <input type="file" id="fileInput" accept="application/pdf" hidden>
+
+        <button id="mic"><img src="mic.svg" alt=""></button>
+        <button id="submit"><img src="submit.svg" alt=""></button>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
