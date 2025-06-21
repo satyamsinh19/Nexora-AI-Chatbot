@@ -87,7 +87,7 @@ Designed as a personal portfolio project, NEXORA AI demonstrates real-time inter
 👤 **Satyam Kumar**  
 🔗 [LinkedIn](https://www.linkedin.com/in/satyam-kumar-5a229222b)  
 📧 satyamkv123@gmail.com  
-💼 GitHub: [@your-username](https://github.com/satyamsinh19)
+💼 [Github](https://github.com/satyamsinh19)
 
 ---
 
